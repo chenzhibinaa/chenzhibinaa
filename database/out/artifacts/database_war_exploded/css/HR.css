@@ -1,0 +1,22 @@
+body {
+    background-color:#f0eef5;
+    display:block;
+    width:94px;
+    height:20px;
+    color:#0b1045;
+    font:20px/30px Georgia, "Times New Roman", Times, serif; text-decoration:none;
+}
+
+.index {
+    position: absolute;
+    right:100px;
+    box-sizing: border-box;
+    width: 1200px;
+    height: 100%;
+    background-color: #c7dbfb;
+    z-index: 100;
+}
+
+.text {
+
+}

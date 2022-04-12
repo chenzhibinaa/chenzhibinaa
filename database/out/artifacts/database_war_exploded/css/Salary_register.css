@@ -1,0 +1,86 @@
+.index-0{
+    background:url("/img/head1.jpg");
+    background-size:100%;
+    position: absolute;
+    top:0;
+    width: 1200px;
+    height: 120px;
+}
+
+.index-1{
+    position: absolute;
+    top:120px;
+    width: 1200px;
+    height: 100px;
+}
+.index-2{
+    position: absolute;
+    top:220px;
+    width: 1200px;
+    height: 450px;
+}
+
+.line1{
+    width: 1200px;
+    height: 50px;
+}
+
+.column1 {
+    display:block;
+    float:left;
+    background-color: #ffffff;
+    box-sizing:border-box;
+    margin: auto;
+    font-size: 18px;
+    width:250px;
+    height:50px;
+    line-height: 50px;
+    text-align: left;
+}
+
+/*
+文本框
+ */
+.text {
+    display:block;
+    float:left;
+    background-color: #8eb4e3;
+    border:5px double #2b2b2b;
+    width:140px;
+    height:40px;
+    line-height: 40px;
+    text-align: left;
+}
+/*
+表格
+ */
+td, th {
+    font-size: 18px;
+    width: 398px;
+    height: 50px;
+    border: #CCCCCC 2px solid;
+    text-align: center;
+}
+
+th{
+    background: #8eb4e3;
+}
+
+.but {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #8eb4e3;
+    border:2px;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    color: #0b1045;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.but:hover {
+    opacity: 0.9;
+}

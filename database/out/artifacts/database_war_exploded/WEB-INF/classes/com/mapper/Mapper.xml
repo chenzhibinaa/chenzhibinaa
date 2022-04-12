@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.Mapper">
+
+    <select id="queryUserByName" parameterType="String" resultType="com.entity.User">
+        select * from manager where user = #{user}
+    </select>
+
+    <insert id="InsertEmployment" parameterType="com.entity.Employment">
+        insert into employment (Organization1,Organization2,Organization3,PositionKind,PositionName
+        ,SalaryStandard,EmployeeName,Sex,Email,Phone,Address,Country,Nation,IDcard,Socialcard,Education,Bank,BankID
+        ,RegisterUser,RegisterTime,personaltext,familytext,note) values(#{Organization1},#{Organization2}
+        ,#{Organization3},#{PositionKind},#{PositionName},#{SalaryStandard},#{EmployeeName},#{Sex},#{Email},#{Phone},#{Address}
+        ,#{Country},#{Nation},#{IDcard},#{Socialcard},#{Education},#{Bank},#{BankID}
+        ,#{RegisterUser},#{RegisterTime},#{personaltext},#{familytext},#{note})
+    </insert>
+
+
+</mapper>

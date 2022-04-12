@@ -1,0 +1,176 @@
+.index-0{
+    background:url("/img/head1.jpg");
+    background-size:100%;
+    position: absolute;
+    top:0;
+    width: 1200px;
+    height: 120px;
+}
+
+.index-1{
+    position: absolute;
+    top:120px;
+    width: 1200px;
+    height: 250px;
+}
+
+.index-1-left{
+    display:block;
+    float:left;
+    width: 1000px;
+    height: 250px;
+    position: absolute;
+    left: 0;
+}
+
+.index-1-right{
+    display:block;
+    float:left;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    right: 0;
+}
+
+.index-2{
+    position: absolute;
+    top:370px;
+    width: 1200px;
+}
+
+/*
+每一行
+ */
+.line{
+    width: 1000px;
+    height: 50px;
+}
+
+.line2{
+    width: 1200px;
+    height: 50px;
+}
+
+.line3{
+    width: 1200px;
+    height: 100px;
+}
+
+
+/*
+文本框
+ */
+.text {
+    display:block;
+    float:left;
+    background-color: #8eb4e3;
+    border:5px double #2b2b2b;
+    width:140px;
+    height:40px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.text2 {
+    display:block;
+    float:left;
+    background-color: #8eb4e3;
+    border:5px double #2b2b2b;
+    width:140px;
+    height:90px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.column1 {
+    display:block;
+    float:left;
+    background-color: #ffffff;
+    box-sizing:border-box;
+    margin: auto;
+    width:160px;
+    height:50px;
+    line-height: 50px;
+    text-align: left;
+}
+
+
+.column2 {
+    display:block;
+    float:left;
+    background-color: #ffffff;
+    box-sizing:border-box;
+    width:230px;
+    height:50px;
+    line-height: 50px;
+    text-align: left;
+}
+
+.column3 {
+    display:block;
+    float:left;
+    background-color: #ffffff;
+    box-sizing:border-box;
+    width:470px;
+    height:50px;
+    line-height: 50px;
+    text-align: left;
+}
+
+.column4 {
+    display:block;
+    float:left;
+    background-color: #ffffff;
+    box-sizing:border-box;
+    width:430px;
+    height:50px;
+    line-height: 50px;
+    text-align: left;
+}
+
+.column5 {
+    background-color: #ffffff;
+    box-sizing:border-box;
+    width:1050px;
+    height:100px;
+}
+
+.column6 {
+    position: absolute;
+    top:0;
+    width:1200px;
+    height:50px;
+}
+
+.img{
+    width:200px;
+    height:200px;
+    left:0 ;
+    background-color: #ffffff;
+}
+
+
+.img-div{
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.but {
+    position: absolute;
+    left:40%;
+    background-color: #8eb4e3;
+    border: none;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    color: #0b1045;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.but:hover {
+    opacity: 0.9;
+}
